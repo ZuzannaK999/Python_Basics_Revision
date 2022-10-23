@@ -4,12 +4,12 @@ top = raw_input("Choose the max number: ")
 if mini.isdigit():
     mini = int(mini)
 else:
-    print("You haven't enter a number")
+    print("You haven't entered a number")
     quit()
 if top.isdigit():
     top = int(top)
 else:
-    print("You haven't enter a number")
+    print("You haven't entered a number")
     quit()
 num = random.randint(mini, top)
 guess_limit = 5
@@ -19,7 +19,7 @@ while guess_num < guess_limit:
     if ans.isdigit():
         ans = int(ans)
     else:
-        print("You haven't enter a number")
+        print("You haven't entered a number")
         continue
     if ans != num:
         guess_num += 1
